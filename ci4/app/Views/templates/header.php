@@ -11,5 +11,5 @@
     <link rel="stylesheet" href="assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
 </head>
