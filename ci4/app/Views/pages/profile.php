@@ -312,6 +312,25 @@
         </section>
         <!-- //INTERESTS -->
 
+        <!-- FORMS and DATA -->
+        <section id="forms" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">FORMS and ARMY</h6>
+                        <h1>Join the army!</h1>
+                        <a href="create"><button class="btn btn-brand" name="join">Click here</button></a>
+                        <br><h1></h1><br>
+                        <br><h1></h1><br>
+                        <h1>View the army!</h1>
+                        <a href="guest"><button class="btn btn-brand" name="join">Click here</button></a>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <!-- FORMS and DATA -->
+
         <!-- RESOURCES -->
         <section id="resources" class="full-height px-lg-5">
             <div class="container">
