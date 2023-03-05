@@ -7,7 +7,7 @@
                 <div class="row pb-4" data-aos="fade-up">
                     <?= session()->getFlashdata('error') ?>
                     <?= validation_list_errors() ?>
-                        <form action="/lab3/ci4/public/create" method="post">
+                        <form action="/~ddangat/lab3/ci4/public/create" method="post">
                             <?= csrf_field() ?>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
