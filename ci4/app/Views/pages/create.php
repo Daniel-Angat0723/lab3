@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="row pb-4" data-aos="fade-up">
-                                    <form action="/~ddangat/lab3/ci4/public/create" method="get">
+                                    <form action="/lab3/ci4/public/create" method="get">
                                     <?= csrf_field() ?>
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
@@ -28,7 +28,7 @@
                                             <input type="text" class="form-control" id="tagline" placeholder="Ride or die!">
                                         </div>
                                         <br>
-                                        <button type="submit" class="btn btn-brand" name="join">Join the army</button>
+                                        <button type="submit" class="btn btn-brand">Join the army</button>
                                     </form>
                 </div>
 </section>

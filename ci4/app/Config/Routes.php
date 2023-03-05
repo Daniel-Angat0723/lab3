@@ -34,15 +34,19 @@ $routes->get('/', 'Pages::view');
 use App\Controllers\News;
 use App\Controllers\Pages;
 use App\Controllers\Guest;
+
+
 $routes->match(['get', 'post'], 'pages/create', [Guest::class, 'create']);
-$routes->get('pages/(:segment)', [Guest::class, 'view']);
-$routes->get('pages', [Guest::class, 'profile']);
+$routes->get('guest', [Guest::class, 'index']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);
 $routes->get('news', [News::class, 'index']);
+
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

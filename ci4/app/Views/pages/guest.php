@@ -6,11 +6,10 @@
                     </div>
                 </div>
                 <div class="row gy-4" data-aos="fade-up">
-                    <?php if(!empty($guests) && is_array($guests)):?>
+                    <?php if(!empty($guest) && is_array($guest)):?>
                         <?php foreach($guest as $guest_item): ?>
                             <div class="col-md-3" data-aos="fade-up">
-                                <h3 class="text-brand"><?= esc($guest_item['fname'])?> <?= esc($guest_item['lname'])?></h3>
-                                <p><h5><?= esc($guest_item['tagline'])?></h5></p>
+                                <h3 class="text-brand"><?= esc($guest_item['fname'])?> <?= esc($guest_item['lname'])?></h3><h5> - <?= esc($guest_item['tagline'])?></h5>
                             </div>
                         <?php endforeach ?>
                     <?php else: ?>
