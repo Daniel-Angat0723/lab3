@@ -9,8 +9,10 @@
                     <?php if(!empty($guest) && is_array($guest)):?>
                         <?php foreach($guest as $guest_item): ?>
                             <div class="col-md-3" data-aos="fade-up">
-                                <h3 class="text-brand"><?= esc($guest_item['fname'])?> <?= esc($guest_item['lname'])?></h3>
-                                <p><h5>Tagline: <?= esc($guest_item['tagline'])?></h5></p>
+                                <div class="card-custom rounded-4 bg-base shadow-effect card-custom-content p-4">
+                                    <h3 class="text-brand"><?= esc($guest_item['fname'])?> <?= esc($guest_item['lname'])?></h3>
+                                    <p><h5>Tagline: <?= esc($guest_item['tagline'])?></h5></p>
+                                </div>
                             </div>
                         <?php endforeach ?>
                     <?php else: ?>
