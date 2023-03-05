@@ -10,13 +10,13 @@ class NewsModel extends Model
 
     protected $allowedFields = ['title', 'slug', 'body'];
 
-    public function getNews($id = false)
+    public function getNews($slug = false)
     {
-        if ($id === false) {
-          return $this->findAll();
+        if ($slug === false) {
+            return $this->findAll();
         }
-    
-        return $this->where(['id' => $id])->first();
+
+        return $this->where(['slug' => $slug])->first();
     }
     
 }
