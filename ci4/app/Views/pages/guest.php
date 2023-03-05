@@ -9,7 +9,7 @@
                     <?php if(!empty($guest) && is_array($guest)):?>
                         <?php foreach($guest as $guest_item): ?>
                             <div class="col-md-3" data-aos="fade-up">
-                                <h3 class="text-brand"><?= esc($guest_item['fname'])?> <?= esc($guest_item['lname'])?></h3><h5> - <?= esc($guest_item['tagline'])?></h5>
+                                <h3 class="text-brand"><?= esc($guest_item['fname'])?> <?= esc($guest_item['lname'])?><h5> - <?= esc($guest_item['tagline'])?></h5></h3>
                             </div>
                         <?php endforeach ?>
                     <?php else: ?>
