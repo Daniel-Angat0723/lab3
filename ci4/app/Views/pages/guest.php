@@ -18,5 +18,8 @@
                     <?php else: ?>
                         <h1 class="text-brand">No Guests Found!</h3>
                     <?php endif ?>
+                    <br>
+                    <a href="profile" data-aos="fade-up"><button class="btn btn-brand">Go back to profile</button></a>
                 </div>
+                
 </section>

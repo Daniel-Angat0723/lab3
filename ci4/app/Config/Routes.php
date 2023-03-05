@@ -36,7 +36,7 @@ use App\Controllers\Pages;
 use App\Controllers\Guest;
 
 
-$routes->match(['get', 'post'], 'pages/create', [Guest::class, 'create']);
+$routes->match(['get', 'post'], 'create', [Guest::class, 'create']);
 $routes->get('guest', [Guest::class, 'index']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);

@@ -3,7 +3,7 @@
                     <div class="col-lg-8">
                         <h1 class="text-brand">SUCCESFULLY CREATED RECORD</h1>
                         <h1>Welcome to the army!</h1>
-                        <a href="profile"><button class="btn btn-brand" name="join">Click here</button></a>
+                        <a href="profile"><button class="btn btn-brand">Go back profile</button></a>
                     </div>
                 </div>
 </section>

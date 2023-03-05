@@ -30,9 +30,11 @@
                         <a class="nav-link" href="#interests">Interests</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#forms">Army</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#resources">resources</a>
                     </li>
-
                 </ul>
                 
             </div>
